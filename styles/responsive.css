@@ -1,11 +1,19 @@
-@media screen and (max-width:420px){
+@media screen and (max-width:425px){
     .nav-items-container ul{
         flex-direction: column;
        
     }
+    .banner-header-container{
+        flex-direction: column-reverse;
    
    }
-
+   .banner-img img{
+    max-width: 100%;
+   }
+   .gamer-img-section img{
+    max-width:fit-content;
+   }
+}
 @media screen and (max-width: 575px){
     .nav-container{
         flex-direction: column;
@@ -14,6 +22,12 @@
 .nav-items-container
     {
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
+    }
+    .banner-header-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 90%;
     }
 }

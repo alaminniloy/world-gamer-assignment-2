@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+/* global style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.nav {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* nav bar style starts */
+.nav-container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+}
+.nav-bar-image {
+  display: flex;
+  align-items: center;
+}
+.nav-bar-image h1 {
+  font-size: 35px;
+}
+.nav-bar-image img {
+  width: 86px;
+  height: 40px;
+  flex-shrink: 0;
+}
+/* nav bar style ends */
+
+/* nav items container starts  */
+.nav-items-container {
+  display: flex;
+}
+.nav-items-container ul {
+  display: flex;
+  align-items: center;
+}
+.nav-items-container li {
+  list-style: none;
+  padding: 0 20px;
+}
+.nav-items-container a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-weight: 700;
+  color: #3c354f;
+}
+.icone-container {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px 15px;
+}
+/* nav items container ends  */
